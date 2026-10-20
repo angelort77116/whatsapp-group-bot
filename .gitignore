@@ -84,7 +84,10 @@
 *.obj
 *.exe
 *.out
-*.app
+# Flutter iOS/Android app binaries
+*.ipa
+*.apk
+*.aab
 *.dll
 *.dylib
 *.so
@@ -110,6 +113,11 @@
 **/.env.*.local
 *.pem
 *.key
+
+# WhatsApp session
+**/auth_info/
+**/session/
+**/*.session
 
 # Temporary files
 *.tmp
